@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>#PARA VOCÊ</title>
+	<link rel="stylesheet" type="text/css" href="styleparavoce.css">
+    <link rel="stylesheet" href="linksparavoce.css">
+    <link rel="stylesheet" href="navmenuparavoce.css">
+    <link rel="stylesheet" href="menuparavoce.css">
+    <link rel="stylesheet" href="formsparavoce.css">
+    <link rel="stylesheet" href="footerparavoce.css">
+</head>
+<body>
+<nav>   
+     <ul class="menu">
+                <img id="logo" src="logo.png">SOBRE NÓS</a></li>
+                  <li><a class="navlink" href="#">PARA EMPRESAS</a></li>
+                  <li><a class="navlink" href="#">PARA VOCÊ</a></li>
+                 <li><a id="crias" href="#">CRIAs</a>
+                           <ul>
+                                <li><a href="#">MÚSICA</a></li>
+                                <li><a href="#">FOTOGRAFIA</a></li>
+                                <li><a href="#">DESENHO E PINTURA</a></li>
+                                <li><a href="#">DIGITAL INFLUENCERS</a></li>
+                                <li><a href="#">COMÉRCIOS</a></li>
+                                
+                          </a></li>
+                     </ul>
+                </li>
+          </ul>
+    </nav>
+    
+    
+
+  <center>
+    
+<div class="pai">
+  <div id="paravocetextdiv"><img id="paravocetext" paravocetext src="paravoce.png"></div>
+    <div class="conteudo">
+	<section>
+          <form>
+          <label for="nome">Nome:</label><br>
+          <input type="text" id="nome" name="nome" placeholder="Insira seu nome"><br>
+          <label for="sobrenome">Sobrenome:</label><br>
+          <input type="text" id="sobrenome" placeholder="Insira seu sobrenome"><br>
+          <label for="email">E-mail:</label><br>
+          <input type="email" id="email" placeholder="Insira seu e-mail"><br>     
+          <label for="telefone">Telefone:</label><br>
+          <input type="text" id="telefone" placeholder="Insira seu Telefone"><br>
+          <label for="bairro">Bairro:</label><br>
+          <input type="text" id="bairro" placeholder="Insira seu Bairro"><br>
+          <label for="categoria">Categoria:</label><br>
+          <input type="text" id="categoria" placeholder="Insira sua Categoria"><br>
+          <input type="checkbox" id="newsletter" />
+          <button type="button" class="botao" onclick="validar()">
+            Enviar
+          </form>
+          </button>
+          </section>
+      </div>
+        </div>
+      </center> 
+<script>
+typeWriter(document.querySelector('h1'));
+
+function typeWriter(elemento) {
+	const textoArray = elemento.innerHTML.split('');
+	elemento.innerHTML = '';
+	textoArray.forEach((letra, i) => {
+		setTimeout (() => elemento.innerHTML += letra, 200 * i);
+	}); 
+}
+ </script>
+ <script src="formu.js"></script>
+
+ <div id="margin"></div>
+
+ <footer id="footercontainer">
+  <div id="imgfooter"><img src="logofooter.png"></div>
+
+  <div id="divlinkss">
+
+  <div class="footer2">
+    
+    <a  href="">SOBRE NÓS</a><br>
+    <a  href="">PARA EMPRESAS</a><br>
+    <a  href="">PARA VOCÊ</a><br>
+    <a  href="">HOME</a><br>
+      
+    </div>
+  
+      <div class="footer2">
+      <a href="">MÚSICA</a><br>
+      <a href="">FOTOGRAFIA</a><br>
+      <a href="">DESENHO E PINTURA</a><br>
+      <a href="">DIGITAL INFLUENCERS</a><br>
+      <a href="">COMÉRCIOS</a><br>
+      </div>
+  
+      <div class="footer2">
+        <a href="">BRUNO CHOSEN</a><br>
+        <a href="">MANDY</a><br>
+        <a href="">LUZ AZEVEDO</a><br>
+        <a href="">DIOGO MOREIRA</a><br>
+        <a href="">GAROTO DA SUL</a><br>
+        <a href="">LOJA MENDES</a><br>
+        <a href="">OVELHAS COLORIDAS</a><br>
+        <a href="">LIA</a><br>
+        <a href="">RAFAELA MOREIRA</a><br>
+        <a href="">LUNA BOOKS LIVROS</a><br>
+        <a href="">MILENA GOMES</a><br>
+        </div>
+      </div>
+  
+</footer>
+
+
+
+          
+      
+  </div>
+  
+</footer>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
